@@ -448,3 +448,19 @@ p {
     height: 100vh;
   }
 }
+
+@media (max-width: 380px) {
+  .heroSectionContent {
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media (max-width: 300px) {
+  .heroSectionContent {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
